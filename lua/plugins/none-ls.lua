@@ -12,6 +12,6 @@ return {
 
 		vim.keymap.set("n", "<leader>gf", function()
 			vim.lsp.buf.format({ async = true })
-		end, {})
+		end, { desc = "Format File" })
 	end,
 }

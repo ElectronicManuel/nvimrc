@@ -13,6 +13,6 @@ return {
                 hijack_netrw_behavior = "open_default"
             }
         })
-        vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', {})
+        vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', { desc = "NeoTree: Reveal" })
     end,
 }
